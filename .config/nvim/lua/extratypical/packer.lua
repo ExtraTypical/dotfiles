@@ -26,7 +26,13 @@ return require('packer').startup(function(use)
   use({ 'hrsh7th/cmp-nvim-lsp' })
   use('CRAG666/code_runner.nvim')
   use('cmp-nvim-lsp')
-  -- use { 'L3MON4D3/LuaSnip' }
+  use({
+	"L3MON4D3/LuaSnip",
+	-- follow latest release.
+	tag = "v2.*", -- Replace <CurrentMajor> by the latest released major (first number of latest release)
+	-- install jsregexp (optional!:).
+	run = "make install_jsregexp"
+})
   use {
     'hrsh7th/nvim-cmp',
     config = function()
@@ -44,7 +50,6 @@ return require('packer').startup(function(use)
       }
     end
   }
-  use { 'saadparwaiz1/cmp_luasnip' }
   use('prabirshrestha/vim-lsp')
   use({
     "aserowy/tmux.nvim",

@@ -85,6 +85,7 @@ $status\
 $os\
 $battery\
 $time"""
+command_timeout = 1000
 
 [fill]
 symbol = ' '

@@ -14,4 +14,4 @@ local function AutoCompleter()
 end
 
 
-vim.api.nvim_set_keymap('i', '<tab>', 'v:lua.AutoCompleter()', { expr = true, noremap = true } 
+vim.api.nvim_set_keymap('i', '<tab>', 'v:lua.AutoCompleter()', { expr = true, noremap = true })

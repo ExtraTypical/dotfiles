@@ -1,6 +1,6 @@
 --[[ require("autoclose").setup() ]]
 
-local function AutoCompleter()
+function AutoCompleter()
   local col = vim.fn.col('.')
   local line = vim.fn.getline('.')
 

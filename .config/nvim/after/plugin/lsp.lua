@@ -5,7 +5,7 @@ lsp_zero.format_on_save({
     timeout_ms = 10000,
   },
   servers = {
-    ['ts_ls'] = { 'javascript', 'typescript' },
+    ['deno_ls'] = { 'javascript', 'typescript' },
     ['gopls'] = { 'go' },
     ['lua_ls'] = { 'lua' },
     ['jsonls'] = { 'json' },

@@ -72,7 +72,7 @@ export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
-export NODE_EXTRA_CA_CERTS=/etc/ssl/certs/CloudServicesRootCA.pem
+# export NODE_EXTRA_CA_CERTS=/etc/ssl/certs/CloudServicesRootCA.pem
 
 # uncomment for linux systems
 # eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"

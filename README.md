@@ -7,6 +7,7 @@ My basic dotfiles. Will require setup, but these are all my settings.
 - Install tmux
 - Install coreutils (on mac)
 - Install nvim
-- Install tmux theme (catpuccin)
-- Install tpm
+- Install starship
+<!-- - Install tmux theme (catpuccin) -->
+<!-- - Install tpm -->
 - Might need to mkdir directories

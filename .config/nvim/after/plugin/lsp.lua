@@ -5,7 +5,7 @@ lsp_zero.format_on_save({
     timeout_ms = 10000,
   },
   servers = {
-    ['deno_ls'] = { 'javascript', 'typescript' },
+    ['denols'] = { 'javascript', 'typescript' },
     ['gopls'] = { 'go' },
     ['lua_ls'] = { 'lua' },
     ['jsonls'] = { 'json' },
@@ -79,9 +79,9 @@ require('lspconfig').gopls.setup({
     },
   },
 })
-require('lspconfig').ts_ls.setup({
-  capabilities = capabilities
-})
+-- require('lspconfig').ts_ls.setup({
+--   capabilities = capabilities
+-- })
 require('lspconfig').eslint.setup({
   capabilities = capabilities
 })
@@ -92,6 +92,11 @@ require 'lspconfig'.jsonls.setup {
 require('lspconfig').html.setup {
   capabilities = capabilities,
 }
+
+require('lspconfig').denols.setup {
+  capabilities = capabilities,
+}
+
 
 require('lspconfig').jdtls.setup({})
 
